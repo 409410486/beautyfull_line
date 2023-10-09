@@ -3,6 +3,8 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
+#pip install opencv-python
+
 # 影像梯度運算子
 def sobel_gradient(img):
     sobel_x = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
